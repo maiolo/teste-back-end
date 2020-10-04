@@ -1,5 +1,4 @@
 class TrackingsController < ApplicationController
-
   def index
     @trackings = Tracking.all
   end
