@@ -7,4 +7,5 @@ class ContactsTest < ApplicationSystemTestCase
     assert_selector "h1", text: "Contact List"
     assert_selector ".contact", count: Contact.count
   end
+
 end

@@ -1,15 +1,15 @@
 data1:
-  UUID: "5d792208-5796-46b3-a1b2-749e07025290"
+  uuid: "5d792208-5796-46b3-a1b2-749e07025290"
   page: "http://localhost:300/"
 
 data2:
-  UUID: "5d792208-5796-46b3-a1b2-749e07025290"
+  uuid: "5d792208-5796-46b3-a1b2-749e07025290"
   page: "http://localhost:300/contacts"
 
 data3:
-  UUID: "2ec90538-3d79-425e-9005-4c9d4744027e"
+  uuid: "2ec90538-3d79-425e-9005-4c9d4744027e"
   page: "http://localhost:300/"
 
 data4:
-  UUID: "2ec90538-3d79-425e-9005-4c9d4744027e"
+  uuid: "2ec90538-3d79-425e-9005-4c9d4744027e"
   page: "http://localhost:300/about"

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ContactTest < ActiveSupport::Base
+class ContactTest < ActiveSupport::TestCase
 setup do
    Contact.destroy_all
 end
@@ -12,7 +12,7 @@ end
 
   test "contact cannot be created with invalid e-mail" do
     contact = Contact.new(name: "John Lenon", email: "john@teste")
-    assert_not user.save
+    assert_not contact.save
   end
 
   test "contact cannot be created with invalid e-mail - 2" do 
