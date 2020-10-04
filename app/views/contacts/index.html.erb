@@ -1,0 +1,9 @@
+<h1>Contact List</h1>
+
+<ul>
+  <% @contacts.each do |contact| %>
+    <li class="contact"><%= contact.name %> - <%= contact.email %> </li>
+  <% end %>
+</ul>
+
+<%= link_to "Add Contact", new_contact_path, class: "btn btn-light"%>
