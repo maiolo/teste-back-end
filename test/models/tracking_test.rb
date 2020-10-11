@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class TrackingTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "tracking data can be created" do
+    tracking = Tracking.create(uuid: Faker::Internet.uuid, page: "/")
+    assert tracking.created_at
+  end
 end
