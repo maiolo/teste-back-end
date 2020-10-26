@@ -1,5 +1,9 @@
 # Readme
 
+### Docker
+
+For Docker instructions, please go to the Docker branch
+
 ### Pre-requisites
 
 To run this application you will need the following. 
