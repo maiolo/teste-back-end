@@ -26,4 +26,4 @@ To run this application you will need the following.
   ```
   
 ##### 4. Access the project
-   On your browser navigate to http://localhost:3000/ and enjoy.
+   now access the [Front-End Repo](https://github.com/maiolo/icasei-teste-back) and follow the steps to use the platform
