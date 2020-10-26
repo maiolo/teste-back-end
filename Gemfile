@@ -56,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'nokogiri', '~> 1.10', '>= 1.10.10'
 gem 'simple_form'
+gem 'rack-cors', :require => 'rack/cors'

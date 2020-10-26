@@ -6,9 +6,8 @@ class Api::V1::TrackingsController < Api::V1::BaseController
   end
 
   def create
-    @trackings = Tracking.new(trackings_params)
+    @trackings = Tracking.new(tracking_params)
     if @trackings.save
-        render :index
     else
       render_error
     end
